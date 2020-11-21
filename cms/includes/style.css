@@ -1,0 +1,153 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Roboto' , sans-serif;
+}
+.contain{
+	padding: .5em;
+}
+select{
+	outline: none;
+}
+.id{
+	display: none;
+}
+select{
+	outline: none;
+}
+.main{
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+}
+.main h1{
+	padding: .5em;
+}
+.symptoms{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	color: #fff;
+	font-weight: normal;
+	justify-content: center;
+	align-items: center;	
+}
+.grid{
+	display: grid;
+	width: 70%;
+	grid-template-columns: repeat(2, 1fr);
+}
+th{
+	padding: 5px;
+	border-bottom: 1px solid #fff;
+}
+.thead{
+	text-align: left;
+	padding: 5px;
+	border-bottom: 1px solid #fff;
+}
+.td{
+	text-align: center;
+}
+.th{
+	text-align: center;
+}
+input.es-input{
+	background-color: #fff;
+	border: 1px solid #333;
+	font-size: 12pt;
+	color: #333;
+	text-align: left;
+	outline: none;
+	width: 300px;
+	border-radius: 3px;
+	height: 30px;
+}
+.es-list{
+	text-align: center;
+	outline: none;
+}
+.banner{
+	width: 40%;
+	height: auto;
+	background-color: #fff;
+	padding: 10px;
+	border-radius: 10px;
+}
+.banner h1{
+	color: #222;
+}
+.head{
+	display: flex;
+	justify-content: flex-end; border-radius: 4px;
+	text-align: right;
+	width: 100%;
+	height: auto;
+	background-color: #3fbe3f;
+}
+.head a{
+	padding: 5px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 10pt;
+}
+#submit{
+	background-color: #3fbe3f;
+	border: 1px solid #222;color: #fff;
+	padding: 2px;
+	border-radius: 3px;
+}
+.top{
+	padding: 1em;
+	width: 40%;
+	text-align: right;
+}
+.top a{
+	text-decoration: none;
+	color: #fff;
+	border-radius: 5px;
+	border: 1px solid #fff;
+	padding: .2em .5em;
+	font-size: 10pt;
+	background-color: #3fbe3f;
+}
+.disease{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	color: #fff;
+	font-weight: normal;
+	justify-content: center;
+	align-items: center;
+}
+/*form on disease*/
+.forms{
+	display: flex;
+	justify-content: flex-start;
+	text-align: left;
+	align-items: left;
+}
+/* search form */
+.navbar{justify-content: flex-end;}
+.cont{
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+}
+.contain{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+.jumbotron{padding: 1em; text-align: center;}
